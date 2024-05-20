@@ -1,7 +1,6 @@
 # Healthapp
-
-A new Flutter project, Using firebase for data management.
-The Health Application is a comprehensive health management solution designed to help users track fitness activities, manage medication intake, and schedule appointments with healthcare providers. It provides features such as user authentication, profile management, intuitive user interface, fitness tracking, medication management, and appointment scheduling.
+## Description
+The Health-Care Application is a comprehensive health management solution designed to help users track fitness activities, manage medication intake, and schedule appointments with healthcare providers. It provides features such as user authentication, profile management, intuitive user interface, fitness tracking, medication management, and appointment scheduling.
 
 ## Getting Started
 
@@ -16,33 +15,46 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-### Prerequisites
-Ensure you have the following installed:
+## Requirements
+### Functional User Requirements
+- User authentication and profile management
+- Intuitive user interface
+- Fitness tracking
+- Medication management
+- Appointment management
 
-Flutter SDK: Install Flutter
-Firebase account: Create Firebase Project
+### Functional System Requirements
+- Account creation and login
+- Intuitive navigation and UI elements
+- Activity tracking, nutritional information, hydration reminders, and sleep reminders
+- Medication entry management with customizable scheduling and reminders
+- Appointment scheduling with customizable reminder notifications
 
-### Setup
-1.Clone the repository.
-2.Install dependencies:
+### Non-functional Requirements
+- Performance: The app should load quickly and respond promptly to user interactions.
+- Reliability: The app should be highly reliable, with minimal downtime and system failures.
+- Usability: The app should be intuitive and easy to use, even for users with limited technical knowledge.
+- Security: Data security measures should be implemented to protect sensitive user information.
 
-flutter pub get
+## Software Process
+- Type: Incremental development
+- Phases: Requirements, Design Prototype(Figma), Test Code, Database Integration(Firebase), Unit Test, System Test
 
-3.Configure Firebase:
+## Architectural Design
+The application follows a layered architecture with components for user interface, business logic, and data access. UML diagrams for the project are available in the `diagrams` directory.
 
-Go to the Firebase Console and create a new project.
-Add an Android and/or iOS app to your Firebase project.
-Download the google-services.json (for Android) and/or GoogleService-Info.plist (for iOS) and place them in the appropriate directories in your Flutter project:
-android/app/
-ios/Runner/
-Update Firebase configuration:
-Ensure your Firebase project settings are properly configured for authentication and Firestore.
+## Setup Instructions
+1. Clone the repository.
+2. Ensure you have Flutter and Dart installed on your system.
+3. Run `flutter pub get` to install dependencies.
+4. Connect a mobile device or start an emulator.
+5. Run the application using `flutter run`
 
-4.Running the App
-Run on an emulator or physical device:
-
-flutter run
-
+## Usage
+1. Create an account or log in securely.
+2. Navigate through the intuitive user interface to access different features.
+3. Track fitness activities, manage medication intake, and schedule appointments seamlessly.
+   
 ## Technologies Used:
 Flutter: For building the mobile application.
 Firebase Authentication: For user authentication.
