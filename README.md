@@ -24,7 +24,6 @@ Firebase account: Create Firebase Project
 
 ### Setup
 1.Clone the repository.
-
 2.Install dependencies:
 
 flutter pub get
