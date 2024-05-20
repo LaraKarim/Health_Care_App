@@ -57,7 +57,11 @@ The application follows a layered architecture with components for user interfac
    
 ## Technologies Used:
 Flutter: For building the mobile application.
+
 Firebase Authentication: For user authentication.
+
 Firebase Firestore: For storing user data.
+
 Dart: Programming language for Flutter.
 
+### For visualization you can check the Screenshots.pdf file or the video named TestApp 
