@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Turing Machine",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/switching.exe", // Path to the executable
+            "args": [], // Arguments to pass to the program, if any
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}", // Current working directory
+            "environment": [],
+            "externalConsole": true, // Use an external console for input/output
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build", // Ensure that the program is built before launching the debugger
+            "miDebuggerPath": "C:/MinGW/bin/gdb.exe", // Adjust based on your GDB installation path
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
